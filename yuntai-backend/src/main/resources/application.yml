@@ -1,0 +1,28 @@
+server:
+  port: 8080
+#mybatis:
+#  #指sql语句在配置文件中的情况
+#  mapper-locations: classpath*:/mappers/*Mapper.xml
+#  configuration:
+#    mapUnderscoreToCamelCase: true # 解决属性无法封装问题
+#
+#spring:
+#  datasource:
+#    dynamic:
+#      #dao没有指定访问哪个数据源，指定默认的数据源
+#      primary: mybatis
+#      #是否是严格模式，严格模式指dao没有指定数据源，就报错。 非严格模式允许dao不配置数据源，会启动默认数据源进行连接
+#      strict: false
+#      datasource:
+#        #定义了两个数据源，一个id为mybatis，另一个为gmall
+#        mybatis:
+#          url: jdbc:mysql://127.0.0.1:3306/mybatis?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+#          username: root
+#          password: "chen!!1992062812"
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#        learn_mysql:
+#          url: jdbc:mysql://127.0.0.1:3306/learn_mysql?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+#          username: root
+#          password: "chen!!1992062812"
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#
